@@ -1,0 +1,37 @@
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e9e7e7;
+  padding-left: 1rem;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav li {
+  padding-right: 1rem;
+}
+
+.nav-left h2 {
+  color: rgb(65, 64, 64);
+}
+
+ul li a {
+  text-decoration: none;
+}
