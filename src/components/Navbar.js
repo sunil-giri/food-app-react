@@ -1,16 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
+import Logo from "../assets/logo.png";
 
 function Navbar() {
   return (
     <div className="container">
       <div className="nav-left">
-        <img
-          className="logo"
-          src="https://images.unsplash.com/photo-1616690710400-a16d146927c5?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mnw0MjY4NjZ8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
-          alt="Food "
-        />
+        <img className="logo" src={Logo} alt="Food " />
         <h2> FOOD POINT</h2>
       </div>
       <div className="nav-right">
